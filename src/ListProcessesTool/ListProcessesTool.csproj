@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+	<PackageId>rdiazconcha.list-processes</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Rodrigo Díaz Concha</Authors>
+	<Description>Muestra todos los procesos.</Description>
+	<PackageTags>cli;tool;dotnet</PackageTags>
+	<RepositoryUrl>https://github.com/rdiazconcha</RepositoryUrl>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackAsTool>true</PackAsTool>
+	<ToolCommandName>list-processes</ToolCommandName>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<RuntimeIdentifiers>
+			linux-x64;
+			linux-arm64;
+			win-x64;
+			win-arm64;
+			any
+		</RuntimeIdentifiers>
+	</PropertyGroup>
+
+</Project>
